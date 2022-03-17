@@ -2,7 +2,7 @@ package com.kaizen.corejava.class_object;
 
 import java.util.Scanner;
 
-public class evenOdd {
+public class EvenOdd {
 	
 	public static void main(String[] args) {
 		for(;;) {
