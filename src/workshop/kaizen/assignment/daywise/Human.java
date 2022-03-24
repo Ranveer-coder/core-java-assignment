@@ -9,7 +9,7 @@ public class Human {
 	String occupation;
 	String hobbies;
 	
-	public Human(String name, int dob, long number, String qualification, String occupations, String hobbies){
+	public Human(String name, int dob, long number, String qualification, String occupation, String hobbies){
 		this.name = name;
 		this.dob = dob;
 		this.number = number;
