@@ -1,18 +1,18 @@
-package workshop.kaizen.assignment.daywise;
+package com.kaizen.constructor;
 
-public class Car {
+public class superCar {
 	
 	String color;
 	String company;
 	String model;
 	
-	public Car() {
+	public superCar() {
 		System.out.println("Non-paramatrised Constructor!!!");
 		System.out.println();
 		System.out.println("Paramatrised Constructor : ");
 	}
 	
-	public Car(String color, String company , String model) {
+	public superCar(String color, String company , String model) {
 		
 		this.color = color;
 		this.company = company;
@@ -22,21 +22,21 @@ public class Car {
 
 	public static void main(String[] args) {
 
-		Car cr = new Car();
+		superCar cr = new superCar();
 		cr.color = "Purple";
 		cr.company = "Lamborgini";
 		cr.model = "AVENTADOR TOP-MODEL";
 		
 		cr.describeCar();
 		
-		Car mustang = new Car("Black" , " Ford " ,  "Shelby GT");
+		superCar mustang = new superCar("Black" , " Ford " ,  "Shelby GT");
 //		mustang.color = "Black";
 //		mustang.company = "Ford";
 //		mustang.model = "Shelby-GT Pro";
 		
 		mustang.describeCar();
 		
-		Car volkswagen = new Car("Black" , " Buggati " ,  "Chiron RS");
+		superCar volkswagen = new superCar("Black" , " Buggati " ,  "Chiron RS");
 //		volkswagen.color = "Gold";
 //		volkswagen.company = "Buggati";
 //		volkswagen.model = "Chiron Racing Sport";

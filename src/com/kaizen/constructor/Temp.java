@@ -1,4 +1,4 @@
-package workshop.kaizen.assignment.daywise;
+package com.kaizen.constructor;
 
 class Temp
 {

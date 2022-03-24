@@ -1,4 +1,4 @@
-package workshop.kaizen.assignment.daywise;
+package com.kaizen.constructor;
 
 public class Person {
 	String name;
@@ -35,9 +35,12 @@ public class Person {
 		Person john = new Person("Jhon", 35, "Delhi", "male");
 		john.describePerson();
 
+		eat();
+		
+		
 	}
 
-	public void eat() {
+	public static void eat() {
 		System.out.println("eating");
 	}
 
