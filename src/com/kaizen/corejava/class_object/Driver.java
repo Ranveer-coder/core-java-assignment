@@ -10,6 +10,13 @@ public class Driver {
 		System.out.println(n.getFirstNumber());
 		System.out.println(n.getsecondNumber());
 		
+
+		Number calculator = new Number();
+		calculator.setFirstNumber(5.0);
+		calculator.setsecondNumber(4);
+		System.out.println(calculator.getFirstNumber());
+		System.out.println(calculator.getsecondNumber());
+		
 	}
 
 }
